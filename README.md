@@ -1,4 +1,4 @@
-### Tetris Game
+# Tetris Game
 
 A simple Tetris game built in Python using the Pygame library. This project includes basic Tetris functionalities such as moving and rotating tetrominoes, clearing lines, leveling up, and keeping track of the score. Sound effects are also included to enhance gameplay.
 
@@ -38,13 +38,13 @@ Install Pygame:
 
 pip install pygame
 
-# Running the Game
+## Running the Game
 
 To run the Tetris game, simply execute the Python script:
 
 python tetris.py
 
-# Controls
+## Controls
 
 Arrow Keys:
 
@@ -58,7 +58,7 @@ Up Arrow: Rotate the tetromino.
 
 P Key: Pause and resume the game.
 
-# Gameplay Overview
+## Gameplay Overview
 
 The game screen is a grid where tetromino pieces fall from the top.
 
@@ -70,7 +70,7 @@ The level increases every 10 rows cleared, making the pieces fall faster.
 
 The game ends when the tetrominoes reach the top of the screen.
 
-# Scoring System
+## Scoring System
 
 Clearing 1 row: 40 points × level
 
@@ -80,7 +80,7 @@ Clearing 3 rows: 300 points × level
 
 Clearing 4 rows (Tetris): 1200 points × level
 
-# Sound Effects
+## Sound Effects
 
 Piece Placement: A sound plays when a tetromino is placed.
 
@@ -88,7 +88,7 @@ Row Clearing: A sound plays when one or more rows are cleared.
 
 Game Over: A sound plays when the game ends.
 
-# Future Improvements
+## Future Improvements
 
 Add more advanced rotation mechanics for better piece fitting.
 
@@ -98,17 +98,17 @@ Add a leaderboard to track high scores.
 
 Improve graphics with textures and animations.
 
-# License
+## License
 
 This project is open-source and available under the MIT License.
 
-# Credits
+## Credits
 
 Pygame Library: Used to create the game interface and handle user input.
 
 Sounds: Created using various open-source sound libraries.
 
-# Contributing
+## Contributing
 
 Contributions are welcome! Feel free to submit a pull request or open an issue if you find a bug or have a suggestion for a new feature.
 
